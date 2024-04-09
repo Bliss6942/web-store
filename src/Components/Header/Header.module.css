@@ -1,0 +1,39 @@
+header{
+    width: 100%;
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    align-items: center;
+}
+
+.header_nav{
+    display: flex;
+    gap: 40px;
+}
+
+.header_nav a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button{
+    background-color: #5178DB;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.out_button{
+    background-color: #d63f3f;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+}

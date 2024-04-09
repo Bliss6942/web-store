@@ -1,0 +1,61 @@
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 35px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.tovars_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #3982B7;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 20px 0 100px 0;
+    gap: 1em;
+    
+}
+
+.tovars_block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    background: #FFFFFF;
+    height: 5vh;
+    border-radius: 10px;
+    padding: 20px 20px;
+    height: auto;
+    gap: 1em;
+}
+
+.itemm{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.title2{
+    color: white;
+}
+
+button{
+    background-color: #4FCE5C;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 20px;
+}
